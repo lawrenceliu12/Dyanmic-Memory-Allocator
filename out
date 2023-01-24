@@ -1,0 +1,1103 @@
+Heap start: 0x55713e0dd2a0, end: 0x55713e0dd6a0, size: 1024
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:      976, pld:        0, al: 0, pal: 1][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+0x55713e0dd698: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+    0x55713e0dd2c8: [FREE BLK][sz:      976, pld:        0, al: 0, pal: 1][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+
+[1;35mDEBUG: src/sfmm.c:sf_malloc:384 [0mfinal size: 1024
+Heap start: 0x55713e0dd2a0, end: 0x55713e0ddaa0, size: 2048
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:      976, pld:        0, al: 0, pal: 1][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+0x55713e0dd698: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713e0dd2c0]
+0x55713e0dda98: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+    0x55713e0dd698: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713e0dd2c0]
+    0x55713e0dd2c8: [FREE BLK][sz:      976, pld:        0, al: 0, pal: 1][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+
+Heap start: 0x55713e0dd2a0, end: 0x55713e0ddaa0, size: 2048
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:     2000, pld:        0, al: 0, pal: 1][prev:0x55713db3a1e0, next:0x55713db3a1e0]
+0x55713e0dda98: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+[0x55713db3a1e0]: 
+    0x55713e0dd2c8: [FREE BLK][sz:     2000, pld:        0, al: 0, pal: 1][prev:0x55713db3a1e0, next:0x55713db3a1e0]
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+
+[1;35mDEBUG: src/sfmm.c:sf_malloc:384 [0mfinal size: 2000
+Heap start: 0x55713e0dd2a0, end: 0x55713e0ddea0, size: 3072
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:     2000, pld:        0, al: 0, pal: 1][prev:0x55713db3a1e0, next:0x55713db3a1e0]
+0x55713e0dda98: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+0x55713e0dde98: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+    0x55713e0dda98: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+[0x55713db3a1e0]: 
+    0x55713e0dd2c8: [FREE BLK][sz:     2000, pld:        0, al: 0, pal: 1][prev:0x55713db3a1e0, next:0x55713db3a1e0]
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+
+Heap start: 0x55713e0dd2a0, end: 0x55713e0ddea0, size: 3072
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:     3024, pld:        0, al: 0, pal: 1][prev:0x55713db3a200, next:0x55713db3a200]
+0x55713e0dde98: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+    0x55713e0dd2c8: [FREE BLK][sz:     3024, pld:        0, al: 0, pal: 1][prev:0x55713db3a200, next:0x55713db3a200]
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+
+[1;35mDEBUG: src/sfmm.c:sf_malloc:384 [0mfinal size: 3024
+Heap start: 0x55713e0dd2a0, end: 0x55713e0de2a0, size: 4096
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:     3024, pld:        0, al: 0, pal: 1][prev:0x55713db3a200, next:0x55713db3a200]
+0x55713e0dde98: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+0x55713e0de298: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+    0x55713e0dde98: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+    0x55713e0dd2c8: [FREE BLK][sz:     3024, pld:        0, al: 0, pal: 1][prev:0x55713db3a200, next:0x55713db3a200]
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+
+Heap start: 0x55713e0dd2a0, end: 0x55713e0de2a0, size: 4096
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:     4048, pld:        0, al: 0, pal: 1][prev:0x55713db3a200, next:0x55713db3a200]
+0x55713e0de298: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+    0x55713e0dd2c8: [FREE BLK][sz:     4048, pld:        0, al: 0, pal: 1][prev:0x55713db3a200, next:0x55713db3a200]
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+
+[1;35mDEBUG: src/sfmm.c:sf_malloc:384 [0mfinal size: 4048
+Heap start: 0x55713e0dd2a0, end: 0x55713e0de6a0, size: 5120
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:     4048, pld:        0, al: 0, pal: 1][prev:0x55713db3a200, next:0x55713db3a200]
+0x55713e0de298: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+0x55713e0de698: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+    0x55713e0de298: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+    0x55713e0dd2c8: [FREE BLK][sz:     4048, pld:        0, al: 0, pal: 1][prev:0x55713db3a200, next:0x55713db3a200]
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+
+Heap start: 0x55713e0dd2a0, end: 0x55713e0de6a0, size: 5120
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:     5072, pld:        0, al: 0, pal: 1][prev:0x55713db3a220, next:0x55713db3a220]
+0x55713e0de698: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+    0x55713e0dd2c8: [FREE BLK][sz:     5072, pld:        0, al: 0, pal: 1][prev:0x55713db3a220, next:0x55713db3a220]
+[0x55713db3a240]: 
+
+[1;35mDEBUG: src/sfmm.c:sf_malloc:384 [0mfinal size: 5072
+Heap start: 0x55713e0dd2a0, end: 0x55713e0deaa0, size: 6144
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:     5072, pld:        0, al: 0, pal: 1][prev:0x55713db3a220, next:0x55713db3a220]
+0x55713e0de698: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+0x55713e0dea98: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+    0x55713e0de698: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+    0x55713e0dd2c8: [FREE BLK][sz:     5072, pld:        0, al: 0, pal: 1][prev:0x55713db3a220, next:0x55713db3a220]
+[0x55713db3a240]: 
+
+Heap start: 0x55713e0dd2a0, end: 0x55713e0deaa0, size: 6144
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:     6096, pld:        0, al: 0, pal: 1][prev:0x55713db3a220, next:0x55713db3a220]
+0x55713e0dea98: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+    0x55713e0dd2c8: [FREE BLK][sz:     6096, pld:        0, al: 0, pal: 1][prev:0x55713db3a220, next:0x55713db3a220]
+[0x55713db3a240]: 
+
+[1;35mDEBUG: src/sfmm.c:sf_malloc:384 [0mfinal size: 6096
+Heap start: 0x55713e0dd2a0, end: 0x55713e0deea0, size: 7168
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:     6096, pld:        0, al: 0, pal: 1][prev:0x55713db3a220, next:0x55713db3a220]
+0x55713e0dea98: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+0x55713e0dee98: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+    0x55713e0dea98: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+    0x55713e0dd2c8: [FREE BLK][sz:     6096, pld:        0, al: 0, pal: 1][prev:0x55713db3a220, next:0x55713db3a220]
+[0x55713db3a240]: 
+
+Heap start: 0x55713e0dd2a0, end: 0x55713e0deea0, size: 7168
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:     7120, pld:        0, al: 0, pal: 1][prev:0x55713db3a220, next:0x55713db3a220]
+0x55713e0dee98: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+    0x55713e0dd2c8: [FREE BLK][sz:     7120, pld:        0, al: 0, pal: 1][prev:0x55713db3a220, next:0x55713db3a220]
+[0x55713db3a240]: 
+
+[1;35mDEBUG: src/sfmm.c:sf_malloc:384 [0mfinal size: 7120
+Heap start: 0x55713e0dd2a0, end: 0x55713e0df2a0, size: 8192
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:     7120, pld:        0, al: 0, pal: 1][prev:0x55713db3a220, next:0x55713db3a220]
+0x55713e0dee98: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+0x55713e0df298: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+    0x55713e0dee98: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+    0x55713e0dd2c8: [FREE BLK][sz:     7120, pld:        0, al: 0, pal: 1][prev:0x55713db3a220, next:0x55713db3a220]
+[0x55713db3a240]: 
+
+Heap start: 0x55713e0dd2a0, end: 0x55713e0df2a0, size: 8192
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:     8144, pld:        0, al: 0, pal: 1][prev:0x55713db3a220, next:0x55713db3a220]
+0x55713e0df298: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+    0x55713e0dd2c8: [FREE BLK][sz:     8144, pld:        0, al: 0, pal: 1][prev:0x55713db3a220, next:0x55713db3a220]
+[0x55713db3a240]: 
+
+[1;35mDEBUG: src/sfmm.c:sf_malloc:384 [0mfinal size: 8144
+Heap start: 0x55713e0dd2a0, end: 0x55713e0df6a0, size: 9216
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:     8144, pld:        0, al: 0, pal: 1][prev:0x55713db3a220, next:0x55713db3a220]
+0x55713e0df298: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+0x55713e0df698: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+    0x55713e0df298: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+    0x55713e0dd2c8: [FREE BLK][sz:     8144, pld:        0, al: 0, pal: 1][prev:0x55713db3a220, next:0x55713db3a220]
+[0x55713db3a240]: 
+
+Heap start: 0x55713e0dd2a0, end: 0x55713e0df6a0, size: 9216
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:     9168, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+0x55713e0df698: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+    0x55713e0dd2c8: [FREE BLK][sz:     9168, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+
+[1;35mDEBUG: src/sfmm.c:sf_malloc:384 [0mfinal size: 9168
+Heap start: 0x55713e0dd2a0, end: 0x55713e0dfaa0, size: 10240
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:     9168, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+0x55713e0df698: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+0x55713e0dfa98: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+    0x55713e0df698: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+    0x55713e0dd2c8: [FREE BLK][sz:     9168, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+
+Heap start: 0x55713e0dd2a0, end: 0x55713e0dfaa0, size: 10240
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:    10192, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+0x55713e0dfa98: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+    0x55713e0dd2c8: [FREE BLK][sz:    10192, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+
+[1;35mDEBUG: src/sfmm.c:sf_malloc:384 [0mfinal size: 10192
+Heap start: 0x55713e0dd2a0, end: 0x55713e0dfea0, size: 11264
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:    10192, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+0x55713e0dfa98: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+0x55713e0dfe98: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+    0x55713e0dfa98: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+    0x55713e0dd2c8: [FREE BLK][sz:    10192, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+
+Heap start: 0x55713e0dd2a0, end: 0x55713e0dfea0, size: 11264
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:    11216, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+0x55713e0dfe98: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+    0x55713e0dd2c8: [FREE BLK][sz:    11216, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+
+[1;35mDEBUG: src/sfmm.c:sf_malloc:384 [0mfinal size: 11216
+Heap start: 0x55713e0dd2a0, end: 0x55713e0e02a0, size: 12288
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:    11216, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+0x55713e0dfe98: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+0x55713e0e0298: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+    0x55713e0dfe98: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+    0x55713e0dd2c8: [FREE BLK][sz:    11216, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+
+Heap start: 0x55713e0dd2a0, end: 0x55713e0e02a0, size: 12288
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:    12240, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+0x55713e0e0298: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+    0x55713e0dd2c8: [FREE BLK][sz:    12240, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+
+[1;35mDEBUG: src/sfmm.c:sf_malloc:384 [0mfinal size: 12240
+Heap start: 0x55713e0dd2a0, end: 0x55713e0e06a0, size: 13312
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:    12240, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+0x55713e0e0298: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+0x55713e0e0698: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+    0x55713e0e0298: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+    0x55713e0dd2c8: [FREE BLK][sz:    12240, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+
+Heap start: 0x55713e0dd2a0, end: 0x55713e0e06a0, size: 13312
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:    13264, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+0x55713e0e0698: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+    0x55713e0dd2c8: [FREE BLK][sz:    13264, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+
+[1;35mDEBUG: src/sfmm.c:sf_malloc:384 [0mfinal size: 13264
+Heap start: 0x55713e0dd2a0, end: 0x55713e0e0aa0, size: 14336
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:    13264, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+0x55713e0e0698: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+0x55713e0e0a98: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+    0x55713e0e0698: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+    0x55713e0dd2c8: [FREE BLK][sz:    13264, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+
+Heap start: 0x55713e0dd2a0, end: 0x55713e0e0aa0, size: 14336
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:    14288, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+0x55713e0e0a98: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+    0x55713e0dd2c8: [FREE BLK][sz:    14288, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+
+[1;35mDEBUG: src/sfmm.c:sf_malloc:384 [0mfinal size: 14288
+Heap start: 0x55713e0dd2a0, end: 0x55713e0e0ea0, size: 15360
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:    14288, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+0x55713e0e0a98: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+0x55713e0e0e98: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+    0x55713e0e0a98: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+    0x55713e0dd2c8: [FREE BLK][sz:    14288, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+
+Heap start: 0x55713e0dd2a0, end: 0x55713e0e0ea0, size: 15360
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:    15312, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+0x55713e0e0e98: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+    0x55713e0dd2c8: [FREE BLK][sz:    15312, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+
+[1;35mDEBUG: src/sfmm.c:sf_malloc:384 [0mfinal size: 15312
+Heap start: 0x55713e0dd2a0, end: 0x55713e0e12a0, size: 16384
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:    15312, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+0x55713e0e0e98: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+0x55713e0e1298: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+    0x55713e0e0e98: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+    0x55713e0dd2c8: [FREE BLK][sz:    15312, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+
+Heap start: 0x55713e0dd2a0, end: 0x55713e0e12a0, size: 16384
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:    16336, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+0x55713e0e1298: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+    0x55713e0dd2c8: [FREE BLK][sz:    16336, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+
+[1;35mDEBUG: src/sfmm.c:sf_malloc:384 [0mfinal size: 16336
+Heap start: 0x55713e0dd2a0, end: 0x55713e0e16a0, size: 17408
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:    16336, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+0x55713e0e1298: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+0x55713e0e1698: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+    0x55713e0e1298: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+    0x55713e0dd2c8: [FREE BLK][sz:    16336, pld:        0, al: 0, pal: 1][prev:0x55713db3a240, next:0x55713db3a240]
+
+Heap start: 0x55713e0dd2a0, end: 0x55713e0e16a0, size: 17408
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:    17360, pld:        0, al: 0, pal: 1][prev:0x55713db3a260, next:(nil)]
+0x55713e0e1698: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+
+[1;35mDEBUG: src/sfmm.c:sf_malloc:384 [0mfinal size: 17360
+Heap start: 0x55713e0dd2a0, end: 0x55713e0e1aa0, size: 18432
+0x55713e0dd2a0: [UNUSED  ]                             
+0x55713e0dd2a8: [PROLOGUE][sz:       32,                al: 1, pal: 0]
+0x55713e0dd2c8: [FREE BLK][sz:    17360, pld:        0, al: 0, pal: 1][prev:0x55713db3a260, next:(nil)]
+0x55713e0e1698: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+0x55713e0e1a98: [EPILOGUE][sz:        0,                al: 1, pal: 0]
+
+Quick lists:
+[0]: 
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+[7]: 
+[8]: 
+[9]: 
+
+Free lists:
+[0x55713db3a120]: 
+[0x55713db3a140]: 
+[0x55713db3a160]: 
+[0x55713db3a180]: 
+[0x55713db3a1a0]: 
+[0x55713db3a1c0]: 
+    0x55713e0e1698: [FREE BLK][sz:     1024, pld:        0, al: 0, pal: 0][prev:0x55713db3a1c0, next:0x55713db3a1c0]
+[0x55713db3a1e0]: 
+[0x55713db3a200]: 
+[0x55713db3a220]: 
+[0x55713db3a240]: 
+
